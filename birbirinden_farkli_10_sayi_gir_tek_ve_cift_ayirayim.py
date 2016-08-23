@@ -9,8 +9,8 @@ cif_sayilar = []
 tek_sayilar = []
 while True:
     if sira == 11:
-        tek_sayilar = [s for s in liste if s % 2 != 0]
-        cif_sayilar = [s for s in liste if s%2==0]
+        tek_sayilar = [b for b in liste if b % 2 != 0]
+        cif_sayilar = [b for b in liste if b%2==0]
         print("Tek sayılar : {}".format(tek_sayilar))
         print("Çift sayılar : {}".format(cif_sayilar))
         break
